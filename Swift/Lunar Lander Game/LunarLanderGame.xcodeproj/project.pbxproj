@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1D5BBB1DE36CB800972B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D5BBA1DE36CB800972B01 /* AppDelegate.swift */; };
+		4C1D5BBD1DE36CB800972B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D5BBC1DE36CB800972B01 /* ViewController.swift */; };
+		4C1D5BBF1DE36CB800972B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D5BBE1DE36CB800972B01 /* Assets.xcassets */; };
+		4C1D5BC21DE36CB800972B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D5BC01DE36CB800972B01 /* Main.storyboard */; };
+		4C1D5BCA1DE36D3C00972B01 /* LanderScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D5BC91DE36D3C00972B01 /* LanderScene.swift */; };
+		4C1D5BCC1DE36D5000972B01 /* StartSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D5BCB1DE36D5000972B01 /* StartSplash.swift */; };
+		4C1D5BCE1DE36D5B00972B01 /* CompleteSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D5BCD1DE36D5B00972B01 /* CompleteSplash.swift */; };
+		4C4D7F4B1DEE419700972002 /* WinSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D7F4A1DEE419700972002 /* WinSplash.swift */; };
+		4C4D7F4D1DEE442100972002 /* Thruster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D7F4C1DEE442100972002 /* Thruster.wav */; };
+		4C4D7F511DEE48F700972002 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D7F501DEE48F700972002 /* Crash.wav */; };
+		4CAEDE851DEA0F1900F616AD /* Lander1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEDE821DEA0F1900F616AD /* Lander1.png */; };
+		4CAEDE861DEA0F1900F616AD /* Lander2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEDE831DEA0F1900F616AD /* Lander2.png */; };
+		4CAEDE871DEA0F1900F616AD /* Lander3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEDE841DEA0F1900F616AD /* Lander3.png */; };
+		4CAEE8F81DEDF981007BA303 /* LunarSurface2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEE8F71DEDF981007BA303 /* LunarSurface2.png */; };
+		4CAEE8FA1DEDFDB8007BA303 /* starBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEE8F91DEDFDB8007BA303 /* starBackground.png */; };
+		4CAEE8FC1DEE033D007BA303 /* LandingPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEE8FB1DEE033D007BA303 /* LandingPad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1D5BB71DE36CB800972B01 /* LunarLanderGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarLanderGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1D5BBA1DE36CB800972B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C1D5BBC1DE36CB800972B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1D5BBE1DE36CB800972B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1D5BC11DE36CB800972B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C1D5BC31DE36CB800972B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1D5BC91DE36D3C00972B01 /* LanderScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanderScene.swift; sourceTree = "<group>"; };
+		4C1D5BCB1DE36D5000972B01 /* StartSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartSplash.swift; sourceTree = "<group>"; };
+		4C1D5BCD1DE36D5B00972B01 /* CompleteSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteSplash.swift; sourceTree = "<group>"; };
+		4C4D7F4A1DEE419700972002 /* WinSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinSplash.swift; sourceTree = "<group>"; };
+		4C4D7F4C1DEE442100972002 /* Thruster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Thruster.wav; sourceTree = "<group>"; };
+		4C4D7F501DEE48F700972002 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
+		4CAEDE821DEA0F1900F616AD /* Lander1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lander1.png; sourceTree = "<group>"; };
+		4CAEDE831DEA0F1900F616AD /* Lander2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lander2.png; sourceTree = "<group>"; };
+		4CAEDE841DEA0F1900F616AD /* Lander3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lander3.png; sourceTree = "<group>"; };
+		4CAEE8F71DEDF981007BA303 /* LunarSurface2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LunarSurface2.png; sourceTree = "<group>"; };
+		4CAEE8F91DEDFDB8007BA303 /* starBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starBackground.png; sourceTree = "<group>"; };
+		4CAEE8FB1DEE033D007BA303 /* LandingPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandingPad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1D5BB41DE36CB800972B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1D5BAE1DE36CB800972B01 = {
+			isa = PBXGroup;
+			children = (
+				4C1D5BB91DE36CB800972B01 /* LunarLanderGame */,
+				4C1D5BB81DE36CB800972B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1D5BB81DE36CB800972B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D5BB71DE36CB800972B01 /* LunarLanderGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1D5BB91DE36CB800972B01 /* LunarLanderGame */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D5BBA1DE36CB800972B01 /* AppDelegate.swift */,
+				4C1D5BBC1DE36CB800972B01 /* ViewController.swift */,
+				4C1D5BBE1DE36CB800972B01 /* Assets.xcassets */,
+				4C1D5BC01DE36CB800972B01 /* Main.storyboard */,
+				4C1D5BC91DE36D3C00972B01 /* LanderScene.swift */,
+				4C4D7F4A1DEE419700972002 /* WinSplash.swift */,
+				4C1D5BCB1DE36D5000972B01 /* StartSplash.swift */,
+				4C1D5BCD1DE36D5B00972B01 /* CompleteSplash.swift */,
+				4CAEDE821DEA0F1900F616AD /* Lander1.png */,
+				4CAEDE831DEA0F1900F616AD /* Lander2.png */,
+				4CAEDE841DEA0F1900F616AD /* Lander3.png */,
+				4CAEE8F71DEDF981007BA303 /* LunarSurface2.png */,
+				4CAEE8FB1DEE033D007BA303 /* LandingPad.png */,
+				4CAEE8F91DEDFDB8007BA303 /* starBackground.png */,
+				4C4D7F4C1DEE442100972002 /* Thruster.wav */,
+				4C4D7F501DEE48F700972002 /* Crash.wav */,
+				4C1D5BC31DE36CB800972B01 /* Info.plist */,
+			);
+			path = LunarLanderGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1D5BB61DE36CB800972B01 /* LunarLanderGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1D5BC61DE36CB800972B01 /* Build configuration list for PBXNativeTarget "LunarLanderGame" */;
+			buildPhases = (
+				4C1D5BB31DE36CB800972B01 /* Sources */,
+				4C1D5BB41DE36CB800972B01 /* Frameworks */,
+				4C1D5BB51DE36CB800972B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunarLanderGame;
+			productName = LunarLanderGame;
+			productReference = 4C1D5BB71DE36CB800972B01 /* LunarLanderGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1D5BAF1DE36CB800972B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michael Pardi";
+				TargetAttributes = {
+					4C1D5BB61DE36CB800972B01 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C1D5BB21DE36CB800972B01 /* Build configuration list for PBXProject "LunarLanderGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1D5BAE1DE36CB800972B01;
+			productRefGroup = 4C1D5BB81DE36CB800972B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1D5BB61DE36CB800972B01 /* LunarLanderGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1D5BB51DE36CB800972B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEDE871DEA0F1900F616AD /* Lander3.png in Resources */,
+				4CAEDE851DEA0F1900F616AD /* Lander1.png in Resources */,
+				4C1D5BBF1DE36CB800972B01 /* Assets.xcassets in Resources */,
+				4C4D7F511DEE48F700972002 /* Crash.wav in Resources */,
+				4CAEE8FC1DEE033D007BA303 /* LandingPad.png in Resources */,
+				4C4D7F4D1DEE442100972002 /* Thruster.wav in Resources */,
+				4CAEDE861DEA0F1900F616AD /* Lander2.png in Resources */,
+				4C1D5BC21DE36CB800972B01 /* Main.storyboard in Resources */,
+				4CAEE8FA1DEDFDB8007BA303 /* starBackground.png in Resources */,
+				4CAEE8F81DEDF981007BA303 /* LunarSurface2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1D5BB31DE36CB800972B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D5BBD1DE36CB800972B01 /* ViewController.swift in Sources */,
+				4C1D5BCC1DE36D5000972B01 /* StartSplash.swift in Sources */,
+				4C1D5BBB1DE36CB800972B01 /* AppDelegate.swift in Sources */,
+				4C4D7F4B1DEE419700972002 /* WinSplash.swift in Sources */,
+				4C1D5BCE1DE36D5B00972B01 /* CompleteSplash.swift in Sources */,
+				4C1D5BCA1DE36D3C00972B01 /* LanderScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C1D5BC01DE36CB800972B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1D5BC11DE36CB800972B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1D5BC41DE36CB800972B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C1D5BC51DE36CB800972B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4C1D5BC71DE36CB800972B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarLanderGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AME430.LunarLanderGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C1D5BC81DE36CB800972B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarLanderGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AME430.LunarLanderGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1D5BB21DE36CB800972B01 /* Build configuration list for PBXProject "LunarLanderGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D5BC41DE36CB800972B01 /* Debug */,
+				4C1D5BC51DE36CB800972B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1D5BC61DE36CB800972B01 /* Build configuration list for PBXNativeTarget "LunarLanderGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D5BC71DE36CB800972B01 /* Debug */,
+				4C1D5BC81DE36CB800972B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1D5BAF1DE36CB800972B01 /* Project object */;
+}

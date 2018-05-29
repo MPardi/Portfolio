@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4be-Dr-W1K">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ailerons-Typeface.otf">
+            <string>Ailerons-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Image To Text Display View Controller-->
+        <scene sceneID="iAE-fc-ZU2">
+            <objects>
+                <viewController storyboardIdentifier="Image To Text Display" id="UB0-3G-2CS" customClass="ImageToTextDisplayViewController" customModule="Project2_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Skm-Ml-eHe"/>
+                        <viewControllerLayoutGuide type="bottom" id="bZx-WY-Uit"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3hE-Pc-87f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="w35-iV-IP8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.90483129024505615" green="0.55495071411132812" blue="0.55105715990066528" alpha="0.38530072773972601" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w35-iV-IP8" firstAttribute="bottom" secondItem="bZx-WY-Uit" secondAttribute="top" id="54B-kE-ch1"/>
+                            <constraint firstItem="w35-iV-IP8" firstAttribute="top" secondItem="Skm-Ml-eHe" secondAttribute="bottom" id="6AT-BF-A7V"/>
+                            <constraint firstAttribute="trailing" secondItem="w35-iV-IP8" secondAttribute="trailing" id="W8b-m3-j1P"/>
+                            <constraint firstItem="w35-iV-IP8" firstAttribute="leading" secondItem="3hE-Pc-87f" secondAttribute="leading" id="iPJ-A2-AQL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="w35-iV-IP8" id="DhD-0H-lcH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7TG-UU-vcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3607" y="134"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="Tei-kY-B0v">
+            <objects>
+                <viewController id="Amw-Kx-DhQ" customClass="MenuViewController" customModule="Project2_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Vy-gi-WiG"/>
+                        <viewControllerLayoutGuide type="bottom" id="tvD-Q8-cba"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6U8-rS-X27">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Scanner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOd-h0-iMn">
+                                <rect key="frame" x="16" y="86" width="343" height="238"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="238" id="7bI-MZ-cok"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ailerons-Regular" family="Ailerons" pointSize="52"/>
+                                <color key="textColor" red="0.99834781885147095" green="0.92914813756942749" blue="0.65577226877212524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5J-CZ-dKk">
+                                <rect key="frame" x="80" y="556" width="215" height="60"/>
+                                <color key="backgroundColor" red="0.23618751764297485" green="0.33419007062911987" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0Ju-rX-MTr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ailerons-Regular" family="Ailerons" pointSize="18"/>
+                                <state key="normal" title="Existing Image">
+                                    <color key="titleColor" red="0.5528225302696228" green="0.91076558828353882" blue="0.65058845281600952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="libraryButtonAction:" destination="Amw-Kx-DhQ" eventType="touchUpInside" id="E9x-QH-VyX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsS-Rh-3qk">
+                                <rect key="frame" x="80" y="473" width="215" height="60"/>
+                                <color key="backgroundColor" red="0.64349913597106934" green="0.91156315803527832" blue="0.55331873893737793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wpz-Uv-ubH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ailerons-Regular" family="Ailerons" pointSize="18"/>
+                                <state key="normal" title="Take A Photo">
+                                    <color key="titleColor" red="0.40781611204147339" green="0.40710568428039551" blue="0.99911314249038696" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="cameraButton:" destination="Amw-Kx-DhQ" eventType="touchUpInside" id="PTj-u5-kLA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90483129024505615" green="0.55495071411132812" blue="0.55105715990066528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TOd-h0-iMn" firstAttribute="centerX" secondItem="wsS-Rh-3qk" secondAttribute="centerX" id="0qd-yY-N4S"/>
+                            <constraint firstItem="wsS-Rh-3qk" firstAttribute="trailing" secondItem="d5J-CZ-dKk" secondAttribute="trailing" id="1Vf-aL-bvl"/>
+                            <constraint firstItem="TOd-h0-iMn" firstAttribute="top" secondItem="1Vy-gi-WiG" secondAttribute="bottom" constant="22" id="7wv-Y6-LXW"/>
+                            <constraint firstItem="tvD-Q8-cba" firstAttribute="top" secondItem="d5J-CZ-dKk" secondAttribute="bottom" constant="51" id="Luo-aF-TfI"/>
+                            <constraint firstItem="wsS-Rh-3qk" firstAttribute="leading" secondItem="d5J-CZ-dKk" secondAttribute="leading" id="MvE-Cn-623"/>
+                            <constraint firstItem="wsS-Rh-3qk" firstAttribute="leading" secondItem="6U8-rS-X27" secondAttribute="leadingMargin" constant="64" id="Rz7-hl-DO9"/>
+                            <constraint firstItem="TOd-h0-iMn" firstAttribute="trailing" secondItem="6U8-rS-X27" secondAttribute="trailingMargin" id="Vwt-5K-bVd"/>
+                            <constraint firstItem="TOd-h0-iMn" firstAttribute="leading" secondItem="6U8-rS-X27" secondAttribute="leadingMargin" id="hhb-Jv-ZcW"/>
+                            <constraint firstItem="d5J-CZ-dKk" firstAttribute="top" secondItem="wsS-Rh-3qk" secondAttribute="bottom" constant="23" id="tyw-yz-o6r"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OIC-G3-xjZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9h-Ho-Q0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2800.8000000000002" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EQX-Ma-Hcc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4be-Dr-W1K" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Eiy-qi-pWD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Amw-Kx-DhQ" kind="relationship" relationship="rootViewController" id="kDp-qb-NYz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ji-Zi-58g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1861.5999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
