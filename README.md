@@ -29,7 +29,16 @@
 ##### Python:
 - Password Cracker: An attempt to make a brute-force password guessing tool. Just for fun :). Displays in terminal only, tried to make it look hacker cool.
 - phpMyFAQ Webscrape: This is a program that uses BeautifulSoup to scrape data from phpMyFAQ sites. This specific example is aimed at an investor Q&A website that contains hundreds of questions and answers. This will get the data and then export it to a .csv file that can be opened in Excel.
-- Reddit Video Downloader: 
+- Reddit Video Downloader: A program that allows a user to download the newest 'Hot' videos off of Reddits /r/videos subreddit. This program makes use of the PRAW library, which allows you to create a user instance and browse Reddit through Python scripts. Originally intended to be a bot, but became a testbed. Program also makes use of Youtube-DL, a command-line tool that allows users to download YouTube videos using CLI commands. 
+- Instructions:
+	- Password Cracker:
+		- `python3 passwordCracker.py`
+	- phpMyFAQ Webscrape and Reddit Video Downloader:
+		- ```
+			virtualenv project_name
+			pip3 install -r requirements.txt
+			python3 project_name.py
+		```  
 ##### Swift:
 
 ##### Web Development:
