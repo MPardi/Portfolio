@@ -7,12 +7,6 @@
 #define SND_PIN 5
 #define PRG_PIN 6
 
-struct saved_t {
-  long value;
-  String type;
-
-} savedCode;
-
 int addr = 0;
 
 IRrecv irrecv(RECV_PIN);
@@ -39,7 +33,6 @@ void setup()
 void loop() {
   if (digitalRead(PRG_PIN) == LOW) {
     recording = true;
-
     digitalWrite(LED_PIN, HIGH);
   }
   else {
@@ -106,6 +99,7 @@ void loop() {
         delay(40);
       }
       delay(1000);
+      irrecv.enableIRIn();
     }
   }
 }
