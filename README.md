@@ -63,7 +63,7 @@
 		- In a browser navigate to `http://localhost:8080`
 	- Porfolio UI Website:
 		- This is a submodule repository of a UI test site using Bootstrap and Pre-compositing to display my Resume/CV.
-		- To visit, go to `https://mpardi.github.io`
+		- To visit, go to [https://mpardi.github.io](https://mpardi.github.io)
 	- Everything else:
 		- `node server.js`
 		- In a browser navigate to `http://localhost:8080`
