@@ -61,6 +61,9 @@
 		- This app requires a MongoDB instance named 'galleryDB' to be present'
 		- `node server.js`
 		- In a browser navigate to `http://localhost:8080`
+	- Porfolio UI Website:
+		- This is a submodule repository of a UI test site using Bootstrap and Pre-compositing to display my Resume/CV.
+		- To visit, go to `https://mpardi.github.io`
 	- Everything else:
 		- `node server.js`
 		- In a browser navigate to `http://localhost:8080`
